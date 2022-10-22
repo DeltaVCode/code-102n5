@@ -1,0 +1,69 @@
+body {
+  background-color: rgb(97, 121, 227);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: rgb(246, 81, 183);
+  height: 200px;
+}
+
+h1 {
+  /* margin-left: 100px;
+  margin-right: 20px;
+  margin-top: 15px; */
+  /* margin: t r b l; */
+  margin: 15px 20px 0px 100px;
+  color: #f5f5f5;
+  text-shadow: 2px 2px 2px rgb(53, 48, 48);
+  font-size: 54px;
+}
+
+ul {
+  margin-top: 50px;
+  background-color: aquamarine;
+}
+
+nav li {
+  display: inline-block;
+  margin-top: 30px;
+  margin-right: 25px;
+  
+}
+
+nav li a {
+  color: green;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+nav li a:hover {
+  color: rgb(255, 255, 255);
+}
+
+main {
+  width: 1000px;
+  margin: 0px auto;
+  min-height: 700px;
+}
+footer {
+  text-align: center;
+  background-color: rgba(205, 26, 221);
+  height: 100px;
+}
+/* we set an id to be used just once in our html */
+/* then we add the comment */
+#hero {
+  width: 960px;
+  height: 260px;
+  border: 10px solid rebeccapurple;
+}
+/* this is where we set up a class and we can use classes multiple times  */
+.lowerPics {
+  display: inline-block;
+  max-width: 30%;
+  margin: 10px;
+  text-align: center;
+}
